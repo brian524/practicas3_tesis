@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="header">
+        <input class="header__checkbox" type="checkbox" id="open-menu">
+        <label class="header__open-nav-button" for="open-menu" role="button">=</label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="../Index/img/logo_menu_nav.png" alt="">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list"> 
+                <li class="header__nav-item"><a href="../Index/index.html">Inicio</a></li>
+                <li class="header__nav-item"><a href="../Index/index.html">Reserva</a></li>
+                <li class="header__nav-item"><a href="../Index/index.html">Contacto</a></li>
+                <li class="header__nav-item"><a href="../ReservaTurnos/login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="form" id="contact">
+        <h2 class="form__title">Registro de usuario</h2>
+        <form class="form__form" action="">
+            <div class="form__input-container">
+                <label for=""> Nombres
+                    <input type="text" placeholder="">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for=""> Apellidos
+                    <input type="text" placeholder="">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for=""> Tipo de DNI
+                    <select id="tipo_dni" name="tipo_dni" required>
+                        <option value="DNI">DNI</option>
+                        <option value="Pasaporte">Pasaporte</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for=""> Número de DNI
+                    <input type="number" placeholder="">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for=""> Genero
+                    <select id="genero" name="genero">
+                        <option value="Masculino">Seleccione una opción</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="Otro">Otro</option>
+                        <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="fecha_nacimiento">Fecha de Nacimiento
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="domicilio">Domicilio
+                    <input type="text" id="domicilio" name="domicilio" placeholder="Ej: Calle 123" required>
+                </label>
+            </div>
+    
+            <div class="form__input-container">
+                <label for="telefono">Número de Contacto
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 123456789" required>
+                </label>
+            </div>
+    
+            <div class="form__input-container">
+                <label for="email">Correo Electrónico
+                    <input type="email" id="email" name="email" placeholder="Ej: usuario@email.com" required>
+                </label>
+            </div>
+    
+            <div class="form__input-container">
+                <label for="usuario">Nombre de Usuario
+                    <input type="text" id="usuario" name="usuario" placeholder="Elige un usuario" required>
+                </label>
+            </div>
+    
+            <div class="form__input-container">
+                <label for="password">Contraseña
+                    <input type="password" id="password" name="password" placeholder="********" required>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="pregunta_seguridad">Pregunta de Seguridad
+                    <select id="pregunta_seguridad" name="pregunta_seguridad" required>
+                        <option value="mascota">¿Cuál es el nombre de tu primera mascota?</option>
+                        <option value="colegio">¿Cómo se llamaba tu escuela primaria?</option>
+                        <option value="madre">¿Cuál es el segundo nombre de tu madre?</option>
+                    </select>
+                </label>
+            </div>
+    
+            <div class="form__input-container">
+                <label for="respuesta_seguridad">Respuesta de Seguridad
+                    <input type="text" id="respuesta_seguridad" name="respuesta_seguridad" required>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label>
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    Acepto los <a href="#">términos y condiciones</a>
+                </label>
+            </div>
+    
+            <div class="form__input-container">
+                <input type="submit" value="Registrarme">
+            </div>    
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+    
+
+
+    
+   
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

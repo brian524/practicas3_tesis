@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos Online</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="header">
+        <input class="header__checkbox" type="checkbox" id="open-menu">
+        <label class="header__open-nav-button" for="open-menu" role="button">=</label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="../Index/img/logo_menu_nav.png" alt="">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list"> 
+                <li class="header__nav-item"><a href="../Index/index.html">Inicio</a></li>
+                <li class="header__nav-item"><a href="#profile">Reserva</a></li>
+                <li class="header__nav-item"><a href="#contact">Contacto</a></li>
+                <li class="header__nav-item"><a href="../ReservaTurnos/login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile" id="profile">
+        <div class="profile__wrapper">
+            <div class="profile__img-container">
+                <img class="profile__img" src="../Index/img/img_main.png" alt="">
+            </div>
+            <div class="profile__data-container">
+                <div class="profile__data">
+                    <div class="profile__description">
+                        <h1>Gestiona tus turnos de manera fácil y rápida</h1>
+                        <p>
+                            Con nuestro sistema de turnos online, puedes reservar tu cita en pocos clics, evitando largas esperas y gestionando tu tiempo de manera eficiente. Nuestro servicio está disponible las 24 horas, los 7 días de la semana, permitiéndote programar y modificar tus turnos desde cualquier dispositivo.
+
+Únete a la nueva forma de organizar tus citas con comodidad y seguridad. ¡Regístrate ahora y comienza a disfrutar de nuestros beneficios!
+                        </p>
+                    </div>
+                    <div class="form__input-container">
+                        <a href="../ReservaTurnos/login.html" class="main__btn">Sacar Turno</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">ESPECIALIDADES</h2>
+        <div class="portfolio__project-container">
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Cardiología</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Traumatología</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Dematología</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Odontología</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Oftalmología</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Gastroenterología</h2>
+            </div>
+        </div>
+    </section>
+    <section class="form" id="contact">
+        <h2 class="form__title">CONTACTO</h2>
+        <form class="form__form" action="">
+            <div class="form__input-container">
+                <label for=""> Nombre
+                    <input type="text" placeholder="Name">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for=""> Apellido
+                    <input type="text" placeholder="Last Name">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for=""> Correo Electronico
+                    <input type="email" placeholder="mail@example.com">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for=""> Mensaje
+                    <textarea name="" id="" placeholder="Your message..."></textarea>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p> <strong>&copy; 2025 Turnos Online</strong> - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
